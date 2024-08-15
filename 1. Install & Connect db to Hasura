@@ -1,0 +1,17 @@
+Gambaran singkat tentang Hasura
+Hasura adalah platform GraphQL yang dirancang untuk memudahkan pengembangan aplikasi dengan menyediakan antarmuka GraphQL yang kaya fitur di atas basis data PostgreSQL. Berikut adalah beberapa fitur utama dan deskripsi tentang Hasura GraphQL:
+
+Fitur Utama Hasura
+Real-time GraphQL: Hasura mendukung real-time GraphQL melalui subscription, memungkinkan aplikasi untuk menerima update data secara langsung tanpa perlu melakukan polling.
+
+CRUD API Otomatis: Hasura secara otomatis menghasilkan API CRUD (Create, Read, Update, Delete) untuk tabel dan view dalam basis data PostgreSQL, sehingga mengurangi waktu pengembangan dan usaha manual.
+
+Authorization & Authentication: Hasura menyediakan mekanisme otorisasi berbasis peran yang fleksibel. Pengguna dapat mendefinisikan aturan akses yang kompleks berdasarkan header HTTP, JWT claims, dan lainnya.
+
+Remote Schemas & API Integrations: Hasura dapat menggabungkan beberapa sumber GraphQL dan REST API ke dalam satu endpoint GraphQL. Ini memungkinkan pengguna untuk mengintegrasikan layanan pihak ketiga dan layanan internal lainnya dengan mudah.
+
+Event Triggers: Hasura mendukung event triggers yang memungkinkan pengguna untuk menjalankan fungsi serverless atau webhook ketika data dalam basis data berubah. Ini sangat berguna untuk membangun logika aplikasi yang kompleks.
+
+Mudah Dikonfigurasi: Hasura memiliki antarmuka pengguna yang intuitif untuk mengelola skema GraphQL, pengaturan otorisasi, dan konfigurasi lainnya. Ini memungkinkan pengembang untuk dengan cepat membuat dan mengubah API mereka.
+
+Open Source: Hasura adalah proyek open-source, yang berarti pengguna dapat meninjau kode sumbernya, berkontribusi pada pengembangannya, dan menyesuaikannya sesuai kebutuhan.
